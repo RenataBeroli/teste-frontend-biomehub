@@ -23,7 +23,7 @@ Powered by
 - **RF07** : Deve ser adicionado na tela de edição um botão de “salvar” e um de “cancelar”;
 - **RF08** : Ao clicar no botão de “salvar” os dados atualizados do cliente devem ser enviados (PUT) para o seguinte endpoint (ele sempre retorna sucesso no PUT , mas não salva de verdade :)
 “ https://private-92a969-processoseletivo1.apiary-mock.com/customers/{id_do_cliente}/ ”;
-- **RF09** : Sendo que, depois do retorno da requisição PUT o usuário deve ser redirecionado para listagem e a aplicação deve apresentar a ele uma notificação dizendo “ Cliente {nome_do_cliente} atualizado com sucesso! ”;
+- **RF09** : Sendo que, depois do retorno da requisição PUT o usuário deve ser redirecionado para listagem e a aplicação deve apresentar a ele uma notificação dizendo “Cliente {nome_do_cliente} atualizado com sucesso!”;
 <p>&nbsp;</p>
 
 ### REQUISITOS NÃO FUNCIONAIS:
