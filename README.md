@@ -7,6 +7,7 @@ Powered by
 
 - O deadline para entrega é dia 5 dias após recebimento deste e-mail.
 - O objetivo do teste é criar uma aplicação Vue.js que consulte uma API REST, exiba uma lista de clientes na tela e que permita a edição deles.
+
 <p>&nbsp;</p>
 
 > **Lembre-se: o teste de composto por vários módulos e várias possibilidades de avaliação, então não deixe de enviar por não ter concluído completamente.**
@@ -24,24 +25,28 @@ Powered by
 - **RF08** : Ao clicar no botão de “salvar” os dados atualizados do cliente devem ser enviados (PUT) para o seguinte endpoint (ele sempre retorna sucesso no PUT , mas não salva de verdade :)
 “ https://private-92a969-processoseletivo1.apiary-mock.com/customers/{id_do_cliente}/ ”;
 - **RF09** : Sendo que, depois do retorno da requisição PUT o usuário deve ser redirecionado para listagem e a aplicação deve apresentar a ele uma notificação dizendo “Cliente {nome_do_cliente} atualizado com sucesso!”;
+
 <p>&nbsp;</p>
 
 ### REQUISITOS NÃO FUNCIONAIS:
 
 - **RNF01** : A aplicação deve ser hospedada em algum servidor de sua preferência, podendo ser bitbucket pages, github pages, gitlab pages, Amazon S3, Google Drive ou onde você achar melhor;
 - **RNF02** : O código fonte deve ser publicado no github e o link deverá ser enviado como resposta de e-mail.
+
 <p>&nbsp;</p>
 
 ### BÔNUS:
 
-- **RF10** : Adicionar um validador reativo no input de idade para tamanho de no mínimo 1 e máximo de 3 números. Este validador só é acionado se o usuário tocar no campo. Caso o usuário digite algum valor que seja errado o botão de salvar deve ficar desabilitado;
-- **RNF04** : Adicionar testes unitários nos principais componentes.
+- **RF10** - Adicionar um validador reativo no input de idade para tamanho de no mínimo 1 e máximo de 3 números. Este validador só é acionado se o usuário tocar no campo. Caso o usuário digite algum valor que seja errado o botão de salvar deve ficar desabilitado;
+- **RNF04** - Adicionar testes unitários nos principais componentes;
+- **RN11** - Gerar PWA da aplicação.
+
 <p>&nbsp;</p>
 
 **Desejamos sucesso em seu teste desde já! Nos colocamos a disposição para esclarecer quaisquer dúvidas.**
 <p>&nbsp;</p>
 
-### Links para auxílio:
+### Links para auxílio
 
 - https://vuejs.org/v2/guide/
 - https://www.docker.com/get-started
