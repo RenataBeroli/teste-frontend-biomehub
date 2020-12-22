@@ -28,14 +28,14 @@ Powered by
 
 <p>&nbsp;</p>
 
-### REQUISITOS NÃO FUNCIONAIS:
+### REQUISITOS NÃO FUNCIONAIS
 
 - **RNF01** : A aplicação deve ser hospedada em algum servidor de sua preferência, podendo ser bitbucket pages, github pages, gitlab pages, Amazon S3, Google Drive ou onde você achar melhor;
 - **RNF02** : O código fonte deve ser publicado no github e o link deverá ser enviado como resposta de e-mail.
 
 <p>&nbsp;</p>
 
-### BÔNUS:
+### BÔNUS
 
 - **RF10** - Adicionar um validador reativo no input de idade para tamanho de no mínimo 1 e máximo de 3 números. Este validador só é acionado se o usuário tocar no campo. Caso o usuário digite algum valor que seja errado o botão de salvar deve ficar desabilitado;
 - **RNF04** - Adicionar testes unitários nos principais componentes;
